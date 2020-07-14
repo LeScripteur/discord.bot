@@ -1,6 +1,5 @@
 # discord.bot
 Scripts for Discord Bot Control (node.JS, javascript)
-
 These scripts are Based on v12.2.0 of Discord.JS.
 
 Please note that Discord Bot Control might use v11.0 of Discord.JS
