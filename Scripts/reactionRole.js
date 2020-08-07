@@ -6,7 +6,7 @@
 let channel_id = "CHANNEL ID OF MESSAGE"; 
 let message_id = "ID OF MESSAGE";
 
-client.on("ready", (reaction, user) => {
+client.on("ready", (reaction, user) => { //<-- This is already in your bot.js file, copy the rest of the code below
 
 client.channels.get(channel_id).fetchMessage(message_id).then(m => {
         console.log("Cached reaction message.");
